@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Android"
+        android:textColor="#FF0000"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bold" />
+
+    <Button
+        android:id="@+id/btnItalic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Italic" />
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal" />
+
+    <Button
+        android:id="@+id/btnFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Font Family" />
+
+    <Button
+        android:id="@+id/btnSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Font Size" />
+
+    <Button
+        android:id="@+id/btnUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Uppercase" />
+
+    <Button
+        android:id="@+id/btnLower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lowercase" />
+
+    <Button
+        android:id="@+id/btnConcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Concatenate String" />
+
+</LinearLayout>

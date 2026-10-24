@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ForegroundServiceDemo</string>
+    <string name="title_foreground_service_demo">Foreground Service Demo</string>
+    <string name="desc_foreground_service_demo">Displays Toast messages every 10 seconds using a foreground service.</string>
+    <string name="status_stopped">Service Status: Stopped</string>
+    <string name="status_running">Service Status: Running</string>
+    <string name="btn_start_service">Start Service</string>
+    <string name="btn_stop_service">Stop Service</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="resource_list">
+        <item>Welcome Text</item>
+        <item>Message Text</item>
+        <item>Red Color</item>
+        <item>Blue Color</item>
+        <item>Green Color</item>
+        <item>Small Size</item>
+        <item>Medium Size</item>
+        <item>Large Size</item>
+    </string-array>
+
+
+</resources>

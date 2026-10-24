@@ -1,0 +1,11 @@
+<resources>
+
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+
+    <string name="app_name">interaction of Fragments</string>
+
+</resources>

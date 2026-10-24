@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Base.Theme.BackgroundColorApp"
+        parent="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+
+    <style name="Theme.BackgroundColorApp"
+        parent="Base.Theme.BackgroundColorApp" />
+
+</resources>

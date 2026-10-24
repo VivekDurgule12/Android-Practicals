@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Implicit Intent Demo"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Section 1: Open Website -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Open Website in Browser"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter URL (e.g. https://www.google.com)"
+            android:inputType="textUri"
+            android:text="https://www.google.com" />
+
+        <Button
+            android:id="@+id/btnOpenWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="Open Website" />
+
+        <!-- Section 2: Dial Phone Number -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Dial Phone Number"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:inputType="phone"
+            android:text="1234567890" />
+
+        <Button
+            android:id="@+id/btnDialPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="Dial Phone Number" />
+
+        <!-- Section 3: Compose Email -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Compose Email"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recipient Email"
+            android:inputType="textEmailAddress"
+            android:text="student@example.com" />
+
+        <EditText
+            android:id="@+id/etEmailSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Subject"
+            android:inputType="text"
+            android:text="Android Lab Experiment" />
+
+        <EditText
+            android:id="@+id/etEmailBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Message Body"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:text="Hello, this email is sent using an implicit intent in Android." />
+
+        <Button
+            android:id="@+id/btnSendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Compose Email" />
+
+    </LinearLayout>
+</ScrollView>

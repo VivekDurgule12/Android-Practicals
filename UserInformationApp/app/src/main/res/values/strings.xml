@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">User Information App</string>
+    <string name="title_user_info">User Information</string>
+    <string name="subtitle_user_info">Please fill in your details below</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_city">City</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_clear">Clear</string>
+    <string name="error_name_required">Name is required</string>
+    <string name="error_age_required">Age is required</string>
+    <string name="error_age_invalid">Please enter a valid age (1 to 120)</string>
+    <string name="error_city_required">City is required</string>
+    <string name="result_header">Personalized Details</string>
+    <string name="personalized_message">Hello %1$s!\n\n• Age: %2$s years old\n• City: %3$s\n\nThank you for sharing your information!</string>
+</resources>
